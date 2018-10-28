@@ -16,5 +16,22 @@ namespace Principal
         {
             InitializeComponent();
         }
+
+        // Inicializacion de Objetos de las clases
+        Leer_archivo leer_archivo = new Leer_archivo();
+        Lexico lx = new Lexico();
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

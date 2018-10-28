@@ -52,8 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Leer_archivo.cs" />
+    <Compile Include="Lexico.cs" />
+    <Compile Include="Matriz_caracteres.cs" />
+    <Compile Include="Matriz_corridas.cs" />
+    <Compile Include="Matriz_errores.cs" />
+    <Compile Include="Matriz_predicciones.cs" />
+    <Compile Include="Matriz_producciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sintactico.cs" />
+    <Compile Include="Tokens.cs" />
+    <Compile Include="Tokens_palabra_reservada.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
