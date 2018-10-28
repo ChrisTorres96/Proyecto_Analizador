@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Principal
 {
@@ -29,11 +30,10 @@ namespace Principal
             {
 
                 car = leer.Read();
-                if (car == 32) goto salto2;
+                //if (car == 32) goto salto2;
                 letra = Convert.ToChar(car);
                 palabra += letra;
-            salto2:
-                tokens[i] = sn.sintactico_metodo(palabra);
+            //salto2:
 
                 /*
                 salto:
@@ -47,6 +47,7 @@ namespace Principal
                 edo = 0;
                 i++;*/
             }
+            MessageBox.Show(sn.sintactico_metodo(palabra););
             return tokens;
         }
     }

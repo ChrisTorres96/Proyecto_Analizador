@@ -108,6 +108,7 @@
             this.btn_archivo.TabIndex = 6;
             this.btn_archivo.Text = "Seleccionar archivo";
             this.btn_archivo.UseVisualStyleBackColor = true;
+            this.btn_archivo.Click += new System.EventHandler(this.btn_archivo_Click);
             // 
             // Form1
             // 
