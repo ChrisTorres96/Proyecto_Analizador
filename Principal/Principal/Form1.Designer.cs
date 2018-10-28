@@ -40,7 +40,7 @@
             // 
             // txt_lexico
             // 
-            this.txt_lexico.Location = new System.Drawing.Point(603, 116);
+            this.txt_lexico.Location = new System.Drawing.Point(612, 342);
             this.txt_lexico.Multiline = true;
             this.txt_lexico.Name = "txt_lexico";
             this.txt_lexico.Size = new System.Drawing.Size(301, 197);
